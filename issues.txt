@@ -1,0 +1,5 @@
+every time the db adds data it has to create an entirely new numpy array.
+	this requires double the database size to exist in memory when new elements are added. find soln.
+
+every time the db syncs with the flat file it rewrites the file.
+	this requires time (on spinning disk), space, and is generally inefficient. find soln.
